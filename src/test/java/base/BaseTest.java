@@ -5,9 +5,9 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 
 public class BaseTest {
-    Playwright playwright;
-    Browser browser;
-    BrowserContext context;
+    protected Playwright playwright;
+    protected Browser browser;
+    protected BrowserContext context;
     public Page page;
 
     @BeforeEach
