@@ -4,7 +4,6 @@ import base.BaseTest;
 import com.microsoft.playwright.Route;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import com.microsoft.playwright.assertions.PlaywrightAssertions;
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
 import java.util.Collections;
