@@ -23,7 +23,8 @@ public class StatusCodeInterceptionTest extends BaseTest {
   }
 
   @Test
-  void testMockedStatusCode() {
+  public void testMockedStatusCode() {
+    // Перейти по ссылки
     page.navigate("https://the-internet.herokuapp.com/status_codes");
     // Клик по ссылке "404"
     page.locator("//a[@href='status_codes/404']").click();
